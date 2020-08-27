@@ -1,6 +1,5 @@
-<img src="https://github.com/vbeloti/netflix-web/blob/master/.github/img/netflix-1.png?raw=true" alt="Netflix Clone" />
 
-## Available Scripts
+## Netflix Clone (React.js | Typescript)
 
 In the project directory, you can run:
 
