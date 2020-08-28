@@ -28,7 +28,7 @@ const Row: React.FC<RowProps> = ({ title, fetchUrl, isLargeRow }) => {
 
   useEffect(() => {
     api.get(fetchUrl).then((data) => setMovies(data.data.results));
-  }, []);
+  }, [fetchUrl]);
 
   const opts: Options = {
     height: '390',
